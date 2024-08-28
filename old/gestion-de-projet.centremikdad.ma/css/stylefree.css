@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237 233 254);
+}
+
+.Lemonada {
+   
+    font-family: "Lemonada", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bagu {
+    padding: 12px 37px 30px;
+    border-radius: 20px;
+    background: white;
+}
+
+.txt-center {
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 8rem;
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 65px;
+}
+
+.headingg {
+    font-size: 3rem;
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 65px;
+    position: absolute;
+    right: 437px;
+    bottom: 105px;
+}
+
+
+.kon {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+.inas {
+    font-size: 18px;
+    width: 100%;
+}
+
+.clr {
+    color: rgb(236, 23, 23);
+}
+
+.video {
+    height: 652px;
+    width: 90%;
+}
+
+.center-video {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.center-videoo {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 25px;
+    
+}
+
+.prix {
+    font-family: "Changa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 27px;
+}
+
+
+.btn {
+    padding: 1em 2em;
+    background-color: #0ebac5;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color:#1e183a;
+    border-radius: 20px;
+    scale: 1.1;
+}
+
+.btn::after{
+    content: '';
+    background: #0ebac5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: -1;    
+}
+
+.btn:hover::after {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.two::after {
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    visibility: hidden;
+}
+
+.two:hover::after {
+        visibility: visible;
+        transform: translateX(0);
+        border-radius: 20px;
+}
+
+
+/* CSS styles */
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffcbf1;
+}
+
+.social li {
+    margin-bottom: 20px;
+    padding: 10px;
+    line-height: 41px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.social li .fa {
+    font-size: 40px;
+}
+
+.but li {
+    line-height: 55px;
+}
+
+.but li::marker{
+    background-image: url(/img/img_bullet.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.garante {
+    background-color: black;
+    padding-bottom: 57px;
+
+}
+
+.garante div h3, 
+.garante div p,
+.garante h1 {
+    color: white;
+}
+
+.items {
+    width: 64%;
+    margin: 0 auto;
+}
+
+.item p {
+    line-height: 35px;
+}
+.line {
+    height: 5px;
+    color: #fde35f;
+    width: 568px;
+    margin: 0 auto;
+}
+
+.video-itme {
+    width: 700px;
+    height: 394px;
+}
+
+.footer {
+    background-color: #ffcbf1;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.img-mikdad {
+    width: 362px;
+}
+
+.modas {
+    width: 515px;
+}
+
+@media only screen and (max-width: 798px){
+    .kon {
+        width: auto !important;
+    }
+
+    .center-video {
+        height: 62vh !important;
+    }
+
+    .video {
+        height: 437px !important;
+        width: 100% !important;
+    }
+
+    .social {
+        flex-direction: column !important;
+    }
+
+    .but li {
+        line-height: 38px;
+        font-size: 16px;
+    }
+
+    .mikdad {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .video-itme {
+        width: 365px;
+        height: 273px;
+    }
+
+    .img-mikdad {
+        width: 313px;
+
+    }
+
+    .modas {
+        width: 393px;
+    }
+    
+}
