@@ -2,15 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     background-color: rgb(237 233 254);
+    
 }
 
 .Lemonada {
    
-    font-family: "Lemonada", cursive;
+    font-family: "Amiri", serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
@@ -163,8 +165,8 @@ body {
     background-color: #f0fcff;
     border:3px ridge  #6661f0 ;
     border-radius: 20px;
-    width:600px;
-    height: 400px;
+    width: 421px;
+    height: 387px;
    
    margin-top: 10px;
    margin-bottom: 10px;
