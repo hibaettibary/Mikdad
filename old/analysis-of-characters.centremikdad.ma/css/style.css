@@ -223,7 +223,8 @@ body {
 }
 
 .modas {
-    width: 515px;
+    width: 500px;
+    height: 250%;
 }
 
 @media only screen and (max-width: 798px){
@@ -269,7 +270,9 @@ body {
     }
 
     .modas {
-        width: 393px;
+        width: 315px;
+        height: 250%;
+        margin-top: 20px;
     }
     
 }
@@ -305,5 +308,5 @@ a{
 
 }
 iframe,img{
-    border-radius: 30px;
+    border-radius: 0px;
 }

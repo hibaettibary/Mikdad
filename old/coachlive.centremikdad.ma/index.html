@@ -25,6 +25,56 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+       
+<style>
+.custom-titles {
+    border: 2px solid #f7f6b9b6; /* لون الإطار */
+    border-radius: 5px; /* زوايا دائرية */
+    background-color:  #f7e19acb; /* لون الخلفية */
+    color: #333; /* لون النص */
+    padding: 10px; /* تباعد حول النص */
+    margin-bottom: 10px; /* تباعد أسفل العنصر */
+    font-size: 1.5em; /* حجم الخط */
+    text-align: center; /* محاذاة النص في الوسط */
+}
+
+.levels .box ul {
+    list-style-type: none; /* إزالة الدوائر الافتراضية */
+    padding: 0; /* Réduire le padding de la liste */
+}
+
+.levels .box ul li {
+    position: relative; /* Permet de positionner l'étoile */
+    padding-right: 30px; /* Espace pour l'étoile à droite */
+    margin-bottom: 5px; /* Espace entre les éléments de la liste */
+    text-align: right; /* Aligner le texte à droite */
+}
+
+.levels .box ul li::after {
+    content: '⭐'; /* Étoile comme puce */
+    position: absolute;
+    right: 0; /* Aligner l'étoile à droite */
+    color: #ffcc00; /* Couleur de l'étoile */
+    font-size: 1.2em; /* Taille de l'étoile */
+}
+
+.capparent {
+    position: relative;
+}
+.cap {
+    position: absolute;
+    left: 264px;
+    top: -45px;
+}
+.cap i {
+    font-size: 4rem;
+}
+
+
+
+
+
+</style>     
 </head>
 
 <body>
@@ -33,7 +83,7 @@
         </p>
         <div class="container bagu">
             <div class="position-relative text-center">
-                <h1 class=" heading">دورة اعداد لايف كوتش</h1>
+                <h1 class=" heading capparent">دورة اعداد لايف كوتش <span class="cap"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span> </h1>
             </div>
             <p class="mobile-text txt-center kon Lemonada">إن منهجية التكوين الخاصة بنا تعتمد على الجانب العملي والتطبيقي
                 بنسبة كبيرة وفي نفس الوقت من ناحية المعارف فمنهجيتنا
@@ -89,10 +139,10 @@
             <p class="txt-center kon inas Lemonada fs-4">
                 هل تبحث عن فرصة لتطوير مهاراتك الكوتشينغ والانطلاق نحو مسار مهني مثمر؟
                 <br><br>
-                انضم إلينا في دورتنا الحصرية" تطوير المهارات الشخصية: دليل للنجاح"
-                <br><br>
-                احصل على الفرصة الفريدة لتعزيز مسارك المهني"في ميدان الكوتشينغ وتعميق فهمك لعالم التوجيه والارشاد في
-                الحياة"
+                انضم إلينا في دورتنا الحصرية" <span class="clr">اعداد الايف الكوتش المحترف</span>"
+                <br><br>                                    
+                احصل على الفرصة الفريدة لتعزيز مسارك المهني<span class="clr" style="color: #0ebac5;">"في ميدان الكوتشينغ وتعميق فهمك لعالم التوجيه والارشاد في
+                الحياة"</span>
                 <br><br>
                 من خلال الدورة، ستتلقى المهارات والأدوات الضرورية تجعلك تتقن تحويل المعارف الصعبة والمعقدة إلى معلومات
                 بسيطة وربطها بالواقع حيث أنا كل المعلومات التي نطرحها مبنية على المنهج التجريبي العلمي. ولأن العلم تعلوا
@@ -107,35 +157,35 @@
                 ، وبالتالي تحسين حياتك وحياة من حولك.
                 وذلك على مدى عشرة أشهر موزعة على النحو التالي
             </p>
-          <div class="qwerty led">
-            <ul class="kon inas Lemonada fs-5 fw-normal ind ">
-                <li class="look"><strong>المستوى الأول:ممارس ذاتي 3 أشهر</strong>
-
-                <li> تطوير الذات</li>
-                <li>البرمجة اللغوية العصبية (NLP)</li>
-                <li> لمرافقة المهني والشخصي</li>
-                <li>التدريب العام</li>
-            </ul>
-               </div>
-               <div  class="qwerty alt"> 
-                    <ul class="kon inas Lemonada fs-5 fw-normal ind ">
-                       <li class="look"> <strong> المستوى الثاني: ممارس متقدم 3 أشهر</strong>
+            <div class="levels">
+                <div class="box">
+                    <h2 class="custom-titles">المستوى الأول: ممارس ذاتي (3 أشهر)</h2>
+                    <ul>
                         <li>تطوير الذات</li>
                         <li>البرمجة اللغوية العصبية (NLP)</li>
-                        <li> المرافقة الشخصي والمهني</li>
+                        <li>لمرافقة المهني والشخصي</li>
+                        <li>التدريب العام</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2 class="custom-titles">المستوى الثاني: ممارس متقدم (3 أشهر)</h2>
+                    <ul>
+                        <li>تطوير الذات</li>
+                        <li>البرمجة اللغوية العصبية (NLP)</li>
+                        <li>المرافقة الشخصية والمهنية</li>
                         <li>تدريب فردي</li>
                         <li>تدريب جماعي</li>
-
-                    </ul></div>
-                  <div  class="qwerty id">
-                    <ul class="kon inas Lemonada fs-5 fw-normal ind ">
-                        <li class="look"><strong>المستوى الثالث: مدرب 4 أشهر</strong>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h2 class="custom-titles">المستوى الثالث: مدرب (4 أشهر)</h2>
+                    <ul>
                         <li>تدريب فردي</li>
                         <li>تدريب جماعي</li>
                         <li>استشارات</li>
-                </li>
-            </ul></div>
-            
+                    </ul>
+                </div>
+            </div>
 
             <div class="d-flex flex-column">
                 <h2 style="text-align: center; color: rgba(0, 68, 255, 0.911); font-size: 40px !important;"><u>
@@ -179,7 +229,7 @@
             
                 <ul class="fw-normal but">
 
-                    <li> يحصل المتدرب على شهادة معترف بها في الكوتشينغ والتوجيه التربوي</li>
+                    <li> يحصل المتدرب على شهادة لايف كوتش محترف</li>
                     <li> يحصل المتدرب على تكوين علمي وعملي</li>
                     <li> يحصل المتدرب على مرافقة لمدة 6 أشهر من مركز مقداد</li>
                     <li> يحصل على اعتماد لجميع دوراته وأنشطته</li>
@@ -198,7 +248,8 @@
                 المدرب الخبير محمد مقداد
             </h3>
             <div class="d-flex align-items-center mikdad">
-                <p class="kon inas Lemonada fs-5 fw-normal text-justify" style="text-align: justify; width: 53%; line-height: 1.8;">
+                <p class="kon inas Lemonada fs-5 fw-normal text-justify" style="text-align: justify;width: 43%;
+    line-height: 2.2;">
                            المدرب الخبير محمد مقداد تدرب على يده اكثر من 1300 لايف كوتش محترف داخل المغرب وخارجها . جلهم فتحو
                     مكاتبهم الخاصة للكوتشينغ وبعضهم يشتغل مع الكوتش محمد مقداد في مكاتبه
                     <br>
@@ -212,7 +263,7 @@
                     يترأس محمد مقداد ادارة مجموعة من الشركات الناجحة و يملك مجموعة من الأسهم في شركات مختلفة كما يرافق
                     العديد من اصحاب المشاريع الصغيرة والمتوسطة من اجل الوصول الى اهدافهم وتطوير مشارعهم .
                     <br>
-                    حلمه هو أن يعرف الجميع بقدراتهم الداخلية ويأمنو اننا نحن أناس عاديو&ن قادرون على تحقيق أشياء غير
+                    حلمه هو أن يعرف الجميع بقدراتهم الداخلية ويأمنو اننا نحن أناس عاديون قادرون على تحقيق أشياء غير
                     عادية ، من خلال التعلم والتدريب
 
 
